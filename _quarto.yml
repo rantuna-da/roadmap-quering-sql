@@ -3,7 +3,7 @@ project:
 
 website:
   title: "SQL Gauntlet | Roberto Antuna"
-  repo-actions: false
+  repo-actions: none
   navbar:
     left:
       - text: "Home"
