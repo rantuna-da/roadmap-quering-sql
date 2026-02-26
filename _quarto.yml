@@ -2,11 +2,18 @@ project:
   type: website
 
 website:
-  title: "SQL Proyect | Roberto Antuna"
-  repo-actions: none  # This removes the "Improve this page" link
-  page-footer:
-    left: "© 2026 Roberto Antuna"
-    right: "Built with Quarto"
+  title: "SQL Gauntlet | Roberto Antuna"
+  repo-actions: none
+  navbar:
+    left:
+      - text: "Home"
+        href: index.qmd
+      - text: "Northwind Retail"
+        href: northwind_retail.qmd
+      - text: "Airlines Analytics"
+        href: airlines_analytics.qmd
+      - text: "AdventureWorks HR"
+        href: adventureworks_hr.qmd
 
 format:
   html:
