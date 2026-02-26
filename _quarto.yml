@@ -2,12 +2,11 @@ project:
   type: website
 
 website:
-  title: "_quarto.yml"
-  navbar:
-    left:
-      - href: index.qmd
-        text: Home
-      - about.qmd
+  title: "SQL Proyect | Roberto Antuna"
+  repo-actions: none  # This removes the "Improve this page" link
+  page-footer:
+    left: "© 2026 Roberto Antuna"
+    right: "Built with Quarto"
 
 format:
   html:
